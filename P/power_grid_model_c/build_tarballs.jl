@@ -60,4 +60,3 @@ dependencies = [
 build_tarballs(ARGS, name, version, sources, script, platforms, products, dependencies; julia_compat = "1.10", preferred_gcc_version = v"14.2.0")
 
 # julia +1.7 build_tarballs.jl --deploy-jll="local"
-# julia +1.7 build_tarballs.jl --deploy-jll="uwbanjoman/libpower_grid_model_c_jll.jl" # the github 'user/repository' names
